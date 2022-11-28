@@ -1,0 +1,76 @@
+/* custom font */
+@import url("../css/fonts/font.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    box-sizing: border-box;
+}
+
+
+/* main style start from here */
+
+
+
+/* navbar */
+.mainHeader{
+    z-index: 1000;
+}
+.navleft a{
+    font-family: Josefin;
+    font-size: 33px;
+    font-family: Josefin;
+    font-weight: 700px;
+    color: black;
+    display: inline-block;
+    transition: ease-in-out .2s 
+}
+.navleft a:hover{
+    transform: scale(1.02);
+}
+
+.navmiddle a{
+    margin: 0 10px;
+    font-family: Josefin;
+    color: black;
+    display: inline-block;
+    transition: ease-in-out .2s ;
+}
+.navmiddle a:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.navright a{
+    padding: 2px;
+    font-size: 16px;
+    color: rgba(15, 1, 1, 0.827);
+    display: inline-block;
+    transition: ease-in-out .2s ;
+}
+.navright a:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
+#menu-icon{
+  font-size: 26px;
+  cursor: pointer;
+  transition: ease-in-out .2s ;
+  z-index: 1001;
+  display: none;
+}
+
+#menu-icon:hover{
+    transform: scale(1.2);
+}
+
+/* navbar */
+
+

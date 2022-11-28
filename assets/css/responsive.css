@@ -1,0 +1,46 @@
+@media only screen and (max-width: 770px) {
+    #menu-icon{
+		display: block;
+	}
+    .navmiddle{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 200px;
+        height: 60vh;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+        transition: all .50s ease;
+        margin-top: 5px;
+        box-shadow: 0 5px 10px  rgba(128, 128, 128, 0.533);
+    }
+    .navmiddle a{
+        display: block;
+		margin: 12px 0;
+		padding: 0px 25px;
+		transition: all .50s ease;
+    }
+    .navmiddle.open{
+		right: 0%;
+	}
+    .navright{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        display: flex;
+        transition: all .50s ease;
+        margin: 55vh 36px 0 0;
+    }
+    .navright a{
+        display: block;
+		transition: all .50s ease;
+        margin: 0 5px;
+    }
+    .navright.open2{
+		right: 0%;
+	}
+}
+  
